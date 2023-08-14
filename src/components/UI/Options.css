@@ -1,0 +1,26 @@
+.image-container{
+  display: flex;
+  align-items: center;  
+}
+
+.image{
+  color: white;
+  border: 5px solid white;  
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  width: 26rem;
+}
+
+.phrase-space-top{
+  margin-top: 2rem;
+}
+
+.phrase-space-bottom{
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 800px) {
+  .image{
+    width: 19.5rem;  
+  }  
+}

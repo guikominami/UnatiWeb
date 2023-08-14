@@ -1,0 +1,57 @@
+.about-main-container {
+  height: 38rem;
+  margin: 0.6rem;
+}
+
+.title-container {
+  margin: 1rem;
+}
+
+.about-inner-container {
+  background-color: #3a1c1d;
+  opacity: 80%;
+  margin: 1rem;  
+  padding: 1.5rem;
+  border-radius: 1rem;  
+}
+
+.about-description {
+  font-family: "Open Sans";
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  justify-content: left;
+  text-align: left;
+}
+
+.about-items {
+  font-family: "Open Sans";
+  font-size: 1.05rem;
+  color: white;
+  justify-content: left;
+  text-align: left;
+}
+
+.space {
+  margin: 1rem;
+}
+
+@media (max-width: 800px) {
+  .about-main-container {
+    height: 37rem;
+    width: 20rem;    
+  }
+
+  .title-container {
+    margin-left: 0rem;
+  }  
+
+  .about-inner-container {
+    padding: 1.3rem;
+    margin: 0rem;
+  }
+
+  .about-items {
+    font-size: 1rem;
+  }  
+}

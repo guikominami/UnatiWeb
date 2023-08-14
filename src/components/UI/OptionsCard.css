@@ -1,0 +1,106 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3a1c1d;
+  width: 24.5rem;
+  max-width: 95%;
+  border-radius: 2%;
+}
+
+.text {
+  display: flex;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 2rem;
+  color: #cf9b33;
+}
+
+.text-phrase {
+  display: flex;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: left;    
+  color: #cf9b33;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.text-container-phrase {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0.1rem;
+}
+
+.button-container-phrase {
+  display: flex;
+  flex-direction: column;
+  padding: 0.1rem;
+  justify-content: space-between;  
+  width: 100%;  
+}
+
+.button {
+  color: #3a1c1d;
+  background-color: #cf9b33;
+  border-radius: 10rem;
+  border: 0;
+  margin: 0rem 0.32rem 0rem 0.2rem;
+  font-size: 1.6rem;
+  font-family: "Open Sans";
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.button-phrase {
+  color: #3a1c1d;
+  background-color: #cf9b33;
+  border: 0;
+  margin: 0rem 0.32rem 1rem 0.2rem;
+  font-size: 1.6rem;
+  font-family: "Open Sans";
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 100%;
+  text-align: left;  
+  justify-content: space-between;
+}
+
+.sound-icon {
+  width: 2rem;
+  padding-left: 1rem;
+  padding-top: 0.4rem;
+}
+
+.message-label {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #d2c5ab;
+}
+
+@media (max-width: 800px) {
+  .options {
+    width: 18rem;
+  }
+
+  .button {
+    border-radius: 1rem;
+  }
+
+  .message-label {
+    font-size: 1rem;
+  }  
+}
